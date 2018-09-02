@@ -1,0 +1,268 @@
+{
+  "keys": "/Users/aran.hu/Desktop/aran/socket-demo/config/config.default.js",
+  "io": {
+    "namespace": {
+      "/": {
+        "connectionMiddleware": "/Users/aran.hu/Desktop/aran/socket-demo/config/config.default.js",
+        "packetMiddleware": "/Users/aran.hu/Desktop/aran/socket-demo/config/config.default.js"
+      }
+    },
+    "init": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-socket.io/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-multipart/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-development/config/config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+  "name": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "version": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "private": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "cors": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+      "egg": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+      "egg-socket.io": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+      "express": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+      "koa": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+      "koa-cors": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+      "react": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+      "react-dom": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+      "react-scripts": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+      "socket.io": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+      "build": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+      "server": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+      "test": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+      "eject": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+      "sk-egg": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+      "sk-koa": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "strict": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+      "depth": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "env": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "level": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "logging": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+      "port": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/config/config.default.js"
+}

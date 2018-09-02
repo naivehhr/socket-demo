@@ -1,0 +1,85 @@
+2018-09-03 15:19:25,661 ERROR 13591 [-/127.0.0.1/-/10ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/lib/application.js:318:15)
+    at Object.get cookies [as cookies] (/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/aran.hu/Desktop/aran/socket-demo/node_modules/koa-compose/index.js:42:32)
+    at /Users/aran.hu/Desktop/aran/socket-demo/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/aran.hu/Desktop/aran/socket-demo/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/aran.hu/Desktop/aran/socket-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/aran.hu/Desktop/aran/socket-demo/node_modules/koa-compose/index.js:42:32)
+
+pid: 13591
+hostname: huhaorandeMacBook-Pro.local
+
+2018-09-03 15:21:02,786 ERROR 13664 [-/127.0.0.1/-/6ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/lib/application.js:318:15)
+    at Object.get cookies [as cookies] (/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/aran.hu/Desktop/aran/socket-demo/node_modules/koa-compose/index.js:42:32)
+    at /Users/aran.hu/Desktop/aran/socket-demo/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/aran.hu/Desktop/aran/socket-demo/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/aran.hu/Desktop/aran/socket-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/aran.hu/Desktop/aran/socket-demo/node_modules/koa-compose/index.js:42:32)
+
+pid: 13664
+hostname: huhaorandeMacBook-Pro.local
+
+2018-09-03 15:22:32,109 ERROR 13741 [-/127.0.0.1/-/4ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/lib/application.js:318:15)
+    at Object.get cookies [as cookies] (/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/aran.hu/Desktop/aran/socket-demo/node_modules/koa-compose/index.js:42:32)
+    at /Users/aran.hu/Desktop/aran/socket-demo/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/aran.hu/Desktop/aran/socket-demo/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/aran.hu/Desktop/aran/socket-demo/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/aran.hu/Desktop/aran/socket-demo/node_modules/koa-compose/index.js:42:32)
+
+pid: 13741
+hostname: huhaorandeMacBook-Pro.local
+
+2018-09-03 15:46:36,128 ERROR 14685 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-09-03 15:46:48,728 ERROR 14685 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-09-03 15:48:36,899 ERROR 14685 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-09-03 15:50:06,778 ERROR 14746 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-09-03 15:50:16,699 ERROR 14746 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-09-03 15:50:36,729 ERROR 14746 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-09-03 15:50:48,038 ERROR 14746 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-09-03 15:52:34,131 ERROR 14845 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-09-03 15:53:46,754 ERROR 14883 nodejs.ReferenceError: socket is not defined (uncaughtException throw 1 times on pid:14883)
+    at Timeout.setInterval [as _onTimeout] (/Users/aran.hu/Desktop/aran/socket-demo/app/io/middleware/auth.js:8:9)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+
+pid: 14883
+hostname: huhaorandeMacBook-Pro.local
+
+2018-09-03 15:54:25,983 ERROR 14911 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-09-03 15:54:26,375 ERROR 14911 nodejs.ReferenceError: socket is not defined (uncaughtException throw 1 times on pid:14911)
+    at Timeout.setInterval [as _onTimeout] (/Users/aran.hu/Desktop/aran/socket-demo/app/io/middleware/auth.js:8:7)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+
+pid: 14911
+hostname: huhaorandeMacBook-Pro.local
+
+2018-09-03 15:54:27,282 ERROR 14911 nodejs.ReferenceError: socket is not defined (uncaughtException throw 2 times on pid:14911)
+    at Timeout.setInterval [as _onTimeout] (/Users/aran.hu/Desktop/aran/socket-demo/app/io/middleware/auth.js:8:7)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+
+pid: 14911
+hostname: huhaorandeMacBook-Pro.local
+
+2018-09-03 16:06:52,204 ERROR 16185 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-09-03 16:07:22,052 ERROR 16185 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-09-03 16:07:28,439 ERROR 16185 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-09-03 16:07:37,800 ERROR 16185 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET

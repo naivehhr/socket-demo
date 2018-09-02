@@ -1,0 +1,285 @@
+2018-09-03 15:18:16,351 INFO 13591 [egg:logger] init all loggers with options: {"dir":"/Users/aran.hu/Desktop/aran/socket-demo/logs/socket","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"socket-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-03 15:18:16,395 INFO 13591 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-03 15:18:16,395 INFO 13591 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-03 15:18:16,448 INFO 13591 [egg-static] starting static serve /public/ -> /Users/aran.hu/Desktop/aran/socket-demo/app/public
+2018-09-03 15:18:16,450 INFO 13591 [egg-security] use csrf middleware
+2018-09-03 15:18:16,453 INFO 13591 [egg-security] use methodnoallow middleware
+2018-09-03 15:18:16,454 INFO 13591 [egg-security] use noopen middleware
+2018-09-03 15:18:16,455 INFO 13591 [egg-security] use nosniff middleware
+2018-09-03 15:18:16,456 INFO 13591 [egg-security] use xssProtection middleware
+2018-09-03 15:18:16,457 INFO 13591 [egg-security] use xframe middleware
+2018-09-03 15:18:16,457 INFO 13591 [egg-security] use dta middleware
+2018-09-03 15:18:16,457 INFO 13591 [egg-security] compose 7 middlewares into one security middleware
+2018-09-03 15:18:16,470 INFO 13591 [egg:core] dump config after load, 12ms
+2018-09-03 15:18:16,496 INFO 13591 [egg-watcher:app] watcher start success
+2018-09-03 15:18:16,500 INFO 13591 [egg:core] dump config after ready, 3ms
+2018-09-03 15:20:58,131 INFO 13664 [egg:logger] init all loggers with options: {"dir":"/Users/aran.hu/Desktop/aran/socket-demo/logs/socket","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"socket-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-03 15:20:58,186 INFO 13664 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-03 15:20:58,186 INFO 13664 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-03 15:20:58,269 INFO 13664 [egg-static] starting static serve /public/ -> /Users/aran.hu/Desktop/aran/socket-demo/app/public
+2018-09-03 15:20:58,271 INFO 13664 [egg-security] use csrf middleware
+2018-09-03 15:20:58,273 INFO 13664 [egg-security] use methodnoallow middleware
+2018-09-03 15:20:58,274 INFO 13664 [egg-security] use noopen middleware
+2018-09-03 15:20:58,274 INFO 13664 [egg-security] use nosniff middleware
+2018-09-03 15:20:58,275 INFO 13664 [egg-security] use xssProtection middleware
+2018-09-03 15:20:58,278 INFO 13664 [egg-security] use xframe middleware
+2018-09-03 15:20:58,279 INFO 13664 [egg-security] use dta middleware
+2018-09-03 15:20:58,279 INFO 13664 [egg-security] compose 7 middlewares into one security middleware
+2018-09-03 15:20:58,291 INFO 13664 [egg:core] dump config after load, 11ms
+2018-09-03 15:20:58,310 INFO 13664 [egg-watcher:app] watcher start success
+2018-09-03 15:20:58,315 INFO 13664 [egg:core] dump config after ready, 3ms
+2018-09-03 15:22:26,035 INFO 13741 [egg:logger] init all loggers with options: {"dir":"/Users/aran.hu/Desktop/aran/socket-demo/logs/socket","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"socket-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-03 15:22:26,071 INFO 13741 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-03 15:22:26,071 INFO 13741 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-03 15:22:26,128 INFO 13741 [egg-static] starting static serve /public/ -> /Users/aran.hu/Desktop/aran/socket-demo/app/public
+2018-09-03 15:22:26,130 INFO 13741 [egg-security] use csrf middleware
+2018-09-03 15:22:26,131 INFO 13741 [egg-security] use methodnoallow middleware
+2018-09-03 15:22:26,131 INFO 13741 [egg-security] use noopen middleware
+2018-09-03 15:22:26,133 INFO 13741 [egg-security] use nosniff middleware
+2018-09-03 15:22:26,134 INFO 13741 [egg-security] use xssProtection middleware
+2018-09-03 15:22:26,135 INFO 13741 [egg-security] use xframe middleware
+2018-09-03 15:22:26,135 INFO 13741 [egg-security] use dta middleware
+2018-09-03 15:22:26,135 INFO 13741 [egg-security] compose 7 middlewares into one security middleware
+2018-09-03 15:22:26,146 INFO 13741 [egg:core] dump config after load, 10ms
+2018-09-03 15:22:26,167 INFO 13741 [egg-watcher:app] watcher start success
+2018-09-03 15:22:26,173 INFO 13741 [egg:core] dump config after ready, 5ms
+2018-09-03 15:22:59,918 INFO 13833 [egg:logger] init all loggers with options: {"dir":"/Users/aran.hu/Desktop/aran/socket-demo/logs/socket","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"socket-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-03 15:22:59,961 INFO 13833 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-03 15:22:59,961 INFO 13833 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-03 15:23:00,014 INFO 13833 [egg-static] starting static serve /public/ -> /Users/aran.hu/Desktop/aran/socket-demo/app/public
+2018-09-03 15:23:00,017 INFO 13833 [egg-security] use csrf middleware
+2018-09-03 15:23:00,018 INFO 13833 [egg-security] use methodnoallow middleware
+2018-09-03 15:23:00,019 INFO 13833 [egg-security] use noopen middleware
+2018-09-03 15:23:00,020 INFO 13833 [egg-security] use nosniff middleware
+2018-09-03 15:23:00,021 INFO 13833 [egg-security] use xssProtection middleware
+2018-09-03 15:23:00,023 INFO 13833 [egg-security] use xframe middleware
+2018-09-03 15:23:00,023 INFO 13833 [egg-security] use dta middleware
+2018-09-03 15:23:00,023 INFO 13833 [egg-security] compose 7 middlewares into one security middleware
+2018-09-03 15:23:00,037 INFO 13833 [egg:core] dump config after load, 12ms
+2018-09-03 15:23:00,059 INFO 13833 [egg-watcher:app] watcher start success
+2018-09-03 15:23:00,065 INFO 13833 [egg:core] dump config after ready, 4ms
+2018-09-03 15:23:59,710 INFO 13879 [egg:logger] init all loggers with options: {"dir":"/Users/aran.hu/Desktop/aran/socket-demo/logs/socket","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"socket-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-03 15:23:59,757 INFO 13879 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-03 15:23:59,757 INFO 13879 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-03 15:23:59,815 INFO 13879 [egg-static] starting static serve /public/ -> /Users/aran.hu/Desktop/aran/socket-demo/app/public
+2018-09-03 15:23:59,818 INFO 13879 [egg-security] use csrf middleware
+2018-09-03 15:23:59,818 INFO 13879 [egg-security] use methodnoallow middleware
+2018-09-03 15:23:59,819 INFO 13879 [egg-security] use noopen middleware
+2018-09-03 15:23:59,820 INFO 13879 [egg-security] use nosniff middleware
+2018-09-03 15:23:59,820 INFO 13879 [egg-security] use xssProtection middleware
+2018-09-03 15:23:59,821 INFO 13879 [egg-security] use xframe middleware
+2018-09-03 15:23:59,823 INFO 13879 [egg-security] use dta middleware
+2018-09-03 15:23:59,823 INFO 13879 [egg-security] compose 7 middlewares into one security middleware
+2018-09-03 15:23:59,835 INFO 13879 [egg:core] dump config after load, 11ms
+2018-09-03 15:23:59,855 INFO 13879 [egg-watcher:app] watcher start success
+2018-09-03 15:23:59,860 INFO 13879 [egg:core] dump config after ready, 3ms
+2018-09-03 15:24:51,413 INFO 13932 [egg:logger] init all loggers with options: {"dir":"/Users/aran.hu/Desktop/aran/socket-demo/logs/socket","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"socket-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-03 15:24:51,449 INFO 13932 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-03 15:24:51,449 INFO 13932 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-03 15:24:51,498 INFO 13932 [egg-static] starting static serve /public/ -> /Users/aran.hu/Desktop/aran/socket-demo/app/public
+2018-09-03 15:24:51,501 INFO 13932 [egg-security] use csrf middleware
+2018-09-03 15:24:51,502 INFO 13932 [egg-security] use methodnoallow middleware
+2018-09-03 15:24:51,502 INFO 13932 [egg-security] use noopen middleware
+2018-09-03 15:24:51,503 INFO 13932 [egg-security] use nosniff middleware
+2018-09-03 15:24:51,504 INFO 13932 [egg-security] use xssProtection middleware
+2018-09-03 15:24:51,506 INFO 13932 [egg-security] use xframe middleware
+2018-09-03 15:24:51,506 INFO 13932 [egg-security] use dta middleware
+2018-09-03 15:24:51,506 INFO 13932 [egg-security] compose 7 middlewares into one security middleware
+2018-09-03 15:24:51,522 INFO 13932 [egg:core] dump config after load, 11ms
+2018-09-03 15:24:51,543 INFO 13932 [egg-watcher:app] watcher start success
+2018-09-03 15:24:51,547 INFO 13932 [egg:core] dump config after ready, 3ms
+2018-09-03 15:39:29,726 INFO 14568 [egg:logger] init all loggers with options: {"dir":"/Users/aran.hu/Desktop/aran/socket-demo/logs/socket","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"socket-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-03 15:39:29,763 INFO 14568 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-03 15:39:29,763 INFO 14568 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-03 15:39:29,900 INFO 14568 [egg-static] starting static serve /public/ -> /Users/aran.hu/Desktop/aran/socket-demo/app/public
+2018-09-03 15:39:29,902 INFO 14568 [egg-security] use csrf middleware
+2018-09-03 15:39:29,903 INFO 14568 [egg-security] use methodnoallow middleware
+2018-09-03 15:39:29,904 INFO 14568 [egg-security] use noopen middleware
+2018-09-03 15:39:29,904 INFO 14568 [egg-security] use nosniff middleware
+2018-09-03 15:39:29,905 INFO 14568 [egg-security] use xssProtection middleware
+2018-09-03 15:39:29,905 INFO 14568 [egg-security] use xframe middleware
+2018-09-03 15:39:29,906 INFO 14568 [egg-security] use dta middleware
+2018-09-03 15:39:29,906 INFO 14568 [egg-security] compose 7 middlewares into one security middleware
+2018-09-03 15:39:29,922 INFO 14568 [egg:core] dump config after load, 7ms
+2018-09-03 15:39:29,948 INFO 14568 [egg-watcher:app] watcher start success
+2018-09-03 15:39:29,982 INFO 14568 [egg:core] dump config after ready, 7ms
+2018-09-03 15:41:55,981 INFO 14630 [egg:logger] init all loggers with options: {"dir":"/Users/aran.hu/Desktop/aran/socket-demo/logs/socket","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"socket-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-03 15:41:56,015 INFO 14630 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-03 15:41:56,015 INFO 14630 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-03 15:41:56,152 INFO 14630 [egg-static] starting static serve /public/ -> /Users/aran.hu/Desktop/aran/socket-demo/app/public
+2018-09-03 15:41:56,154 INFO 14630 [egg-security] use csrf middleware
+2018-09-03 15:41:56,155 INFO 14630 [egg-security] use methodnoallow middleware
+2018-09-03 15:41:56,155 INFO 14630 [egg-security] use noopen middleware
+2018-09-03 15:41:56,156 INFO 14630 [egg-security] use nosniff middleware
+2018-09-03 15:41:56,157 INFO 14630 [egg-security] use xssProtection middleware
+2018-09-03 15:41:56,157 INFO 14630 [egg-security] use xframe middleware
+2018-09-03 15:41:56,158 INFO 14630 [egg-security] use dta middleware
+2018-09-03 15:41:56,158 INFO 14630 [egg-security] compose 7 middlewares into one security middleware
+2018-09-03 15:41:56,172 INFO 14630 [egg:core] dump config after load, 7ms
+2018-09-03 15:41:56,196 INFO 14630 [egg-watcher:app] watcher start success
+2018-09-03 15:41:56,213 INFO 14630 [egg:core] dump config after ready, 4ms
+2018-09-03 15:46:22,243 INFO 14685 [egg:logger] init all loggers with options: {"dir":"/Users/aran.hu/Desktop/aran/socket-demo/logs/socket","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"socket-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-03 15:46:22,295 INFO 14685 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-03 15:46:22,295 INFO 14685 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-03 15:46:22,558 INFO 14685 [egg-static] starting static serve /public/ -> /Users/aran.hu/Desktop/aran/socket-demo/app/public
+2018-09-03 15:46:22,565 INFO 14685 [egg-security] use csrf middleware
+2018-09-03 15:46:22,573 INFO 14685 [egg-security] use methodnoallow middleware
+2018-09-03 15:46:22,577 INFO 14685 [egg-security] use noopen middleware
+2018-09-03 15:46:22,578 INFO 14685 [egg-security] use nosniff middleware
+2018-09-03 15:46:22,583 INFO 14685 [egg-security] use xssProtection middleware
+2018-09-03 15:46:22,587 INFO 14685 [egg-security] use xframe middleware
+2018-09-03 15:46:22,588 INFO 14685 [egg-security] use dta middleware
+2018-09-03 15:46:22,588 INFO 14685 [egg-security] compose 7 middlewares into one security middleware
+2018-09-03 15:46:22,622 INFO 14685 [egg:core] dump config after load, 17ms
+2018-09-03 15:46:22,641 INFO 14685 [egg-watcher:app] watcher start success
+2018-09-03 15:46:22,660 INFO 14685 [egg:core] dump config after ready, 3ms
+2018-09-03 15:49:24,968 INFO 14720 [egg:logger] init all loggers with options: {"dir":"/Users/aran.hu/Desktop/aran/socket-demo/logs/socket","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"socket-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-03 15:49:25,031 INFO 14720 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-03 15:49:25,031 INFO 14720 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-03 15:49:25,200 INFO 14720 [egg-static] starting static serve /public/ -> /Users/aran.hu/Desktop/aran/socket-demo/app/public
+2018-09-03 15:49:25,202 INFO 14720 [egg-security] use csrf middleware
+2018-09-03 15:49:25,203 INFO 14720 [egg-security] use methodnoallow middleware
+2018-09-03 15:49:25,204 INFO 14720 [egg-security] use noopen middleware
+2018-09-03 15:49:25,208 INFO 14720 [egg-security] use nosniff middleware
+2018-09-03 15:49:25,209 INFO 14720 [egg-security] use xssProtection middleware
+2018-09-03 15:49:25,210 INFO 14720 [egg-security] use xframe middleware
+2018-09-03 15:49:25,210 INFO 14720 [egg-security] use dta middleware
+2018-09-03 15:49:25,210 INFO 14720 [egg-security] compose 7 middlewares into one security middleware
+2018-09-03 15:49:25,221 INFO 14720 [egg:core] dump config after load, 4ms
+2018-09-03 15:49:25,231 INFO 14720 [egg-watcher:app] watcher start success
+2018-09-03 15:49:25,257 INFO 14720 [egg:core] dump config after ready, 4ms
+2018-09-03 15:50:02,552 INFO 14746 [egg:logger] init all loggers with options: {"dir":"/Users/aran.hu/Desktop/aran/socket-demo/logs/socket","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"socket-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-03 15:50:02,594 INFO 14746 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-03 15:50:02,594 INFO 14746 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-03 15:50:02,732 INFO 14746 [egg-static] starting static serve /public/ -> /Users/aran.hu/Desktop/aran/socket-demo/app/public
+2018-09-03 15:50:02,734 INFO 14746 [egg-security] use csrf middleware
+2018-09-03 15:50:02,735 INFO 14746 [egg-security] use methodnoallow middleware
+2018-09-03 15:50:02,736 INFO 14746 [egg-security] use noopen middleware
+2018-09-03 15:50:02,737 INFO 14746 [egg-security] use nosniff middleware
+2018-09-03 15:50:02,738 INFO 14746 [egg-security] use xssProtection middleware
+2018-09-03 15:50:02,739 INFO 14746 [egg-security] use xframe middleware
+2018-09-03 15:50:02,739 INFO 14746 [egg-security] use dta middleware
+2018-09-03 15:50:02,739 INFO 14746 [egg-security] compose 7 middlewares into one security middleware
+2018-09-03 15:50:02,751 INFO 14746 [egg:core] dump config after load, 4ms
+2018-09-03 15:50:02,765 INFO 14746 [egg-watcher:app] watcher start success
+2018-09-03 15:50:02,787 INFO 14746 [egg:core] dump config after ready, 3ms
+2018-09-03 15:52:21,800 INFO 14845 [egg:logger] init all loggers with options: {"dir":"/Users/aran.hu/Desktop/aran/socket-demo/logs/socket","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"socket-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-03 15:52:21,846 INFO 14845 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-03 15:52:21,846 INFO 14845 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-03 15:52:21,987 INFO 14845 [egg-static] starting static serve /public/ -> /Users/aran.hu/Desktop/aran/socket-demo/app/public
+2018-09-03 15:52:21,990 INFO 14845 [egg-security] use csrf middleware
+2018-09-03 15:52:21,990 INFO 14845 [egg-security] use methodnoallow middleware
+2018-09-03 15:52:21,991 INFO 14845 [egg-security] use noopen middleware
+2018-09-03 15:52:21,992 INFO 14845 [egg-security] use nosniff middleware
+2018-09-03 15:52:21,993 INFO 14845 [egg-security] use xssProtection middleware
+2018-09-03 15:52:21,994 INFO 14845 [egg-security] use xframe middleware
+2018-09-03 15:52:21,994 INFO 14845 [egg-security] use dta middleware
+2018-09-03 15:52:21,994 INFO 14845 [egg-security] compose 7 middlewares into one security middleware
+2018-09-03 15:52:22,005 INFO 14845 [egg:core] dump config after load, 4ms
+2018-09-03 15:52:22,019 INFO 14845 [egg-watcher:app] watcher start success
+2018-09-03 15:52:22,036 INFO 14845 [egg:core] dump config after ready, 4ms
+2018-09-03 15:53:43,916 INFO 14883 [egg:logger] init all loggers with options: {"dir":"/Users/aran.hu/Desktop/aran/socket-demo/logs/socket","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"socket-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-03 15:53:43,964 INFO 14883 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-03 15:53:43,964 INFO 14883 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-03 15:53:44,153 INFO 14883 [egg-static] starting static serve /public/ -> /Users/aran.hu/Desktop/aran/socket-demo/app/public
+2018-09-03 15:53:44,159 INFO 14883 [egg-security] use csrf middleware
+2018-09-03 15:53:44,160 INFO 14883 [egg-security] use methodnoallow middleware
+2018-09-03 15:53:44,160 INFO 14883 [egg-security] use noopen middleware
+2018-09-03 15:53:44,162 INFO 14883 [egg-security] use nosniff middleware
+2018-09-03 15:53:44,162 INFO 14883 [egg-security] use xssProtection middleware
+2018-09-03 15:53:44,163 INFO 14883 [egg-security] use xframe middleware
+2018-09-03 15:53:44,164 INFO 14883 [egg-security] use dta middleware
+2018-09-03 15:53:44,164 INFO 14883 [egg-security] compose 7 middlewares into one security middleware
+2018-09-03 15:53:44,179 INFO 14883 [egg:core] dump config after load, 7ms
+2018-09-03 15:53:44,200 INFO 14883 [egg-watcher:app] watcher start success
+2018-09-03 15:53:44,217 INFO 14883 [egg:core] dump config after ready, 3ms
+2018-09-03 15:54:22,775 INFO 14911 [egg:logger] init all loggers with options: {"dir":"/Users/aran.hu/Desktop/aran/socket-demo/logs/socket","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"socket-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-03 15:54:22,816 INFO 14911 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-03 15:54:22,816 INFO 14911 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-03 15:54:22,946 INFO 14911 [egg-static] starting static serve /public/ -> /Users/aran.hu/Desktop/aran/socket-demo/app/public
+2018-09-03 15:54:22,949 INFO 14911 [egg-security] use csrf middleware
+2018-09-03 15:54:22,951 INFO 14911 [egg-security] use methodnoallow middleware
+2018-09-03 15:54:22,951 INFO 14911 [egg-security] use noopen middleware
+2018-09-03 15:54:22,952 INFO 14911 [egg-security] use nosniff middleware
+2018-09-03 15:54:22,953 INFO 14911 [egg-security] use xssProtection middleware
+2018-09-03 15:54:22,954 INFO 14911 [egg-security] use xframe middleware
+2018-09-03 15:54:22,954 INFO 14911 [egg-security] use dta middleware
+2018-09-03 15:54:22,954 INFO 14911 [egg-security] compose 7 middlewares into one security middleware
+2018-09-03 15:54:22,967 INFO 14911 [egg:core] dump config after load, 5ms
+2018-09-03 15:54:22,988 INFO 14911 [egg-watcher:app] watcher start success
+2018-09-03 15:54:23,007 INFO 14911 [egg:core] dump config after ready, 5ms
+2018-09-03 15:54:41,669 INFO 14926 [egg:logger] init all loggers with options: {"dir":"/Users/aran.hu/Desktop/aran/socket-demo/logs/socket","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"socket-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-03 15:54:41,721 INFO 14926 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-03 15:54:41,721 INFO 14926 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-03 15:54:41,882 INFO 14926 [egg-static] starting static serve /public/ -> /Users/aran.hu/Desktop/aran/socket-demo/app/public
+2018-09-03 15:54:41,884 INFO 14926 [egg-security] use csrf middleware
+2018-09-03 15:54:41,885 INFO 14926 [egg-security] use methodnoallow middleware
+2018-09-03 15:54:41,886 INFO 14926 [egg-security] use noopen middleware
+2018-09-03 15:54:41,886 INFO 14926 [egg-security] use nosniff middleware
+2018-09-03 15:54:41,887 INFO 14926 [egg-security] use xssProtection middleware
+2018-09-03 15:54:41,887 INFO 14926 [egg-security] use xframe middleware
+2018-09-03 15:54:41,888 INFO 14926 [egg-security] use dta middleware
+2018-09-03 15:54:41,888 INFO 14926 [egg-security] compose 7 middlewares into one security middleware
+2018-09-03 15:54:41,901 INFO 14926 [egg:core] dump config after load, 6ms
+2018-09-03 15:54:41,920 INFO 14926 [egg-watcher:app] watcher start success
+2018-09-03 15:54:41,938 INFO 14926 [egg:core] dump config after ready, 5ms
+2018-09-03 16:06:40,587 INFO 16185 [egg:logger] init all loggers with options: {"dir":"/Users/aran.hu/Desktop/aran/socket-demo/logs/socket","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"socket-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-03 16:06:40,668 INFO 16185 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-03 16:06:40,668 INFO 16185 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-03 16:06:40,868 INFO 16185 [egg-static] starting static serve /public/ -> /Users/aran.hu/Desktop/aran/socket-demo/app/public
+2018-09-03 16:06:40,870 INFO 16185 [egg-security] use csrf middleware
+2018-09-03 16:06:40,871 INFO 16185 [egg-security] use methodnoallow middleware
+2018-09-03 16:06:40,879 INFO 16185 [egg-security] use noopen middleware
+2018-09-03 16:06:40,880 INFO 16185 [egg-security] use nosniff middleware
+2018-09-03 16:06:40,880 INFO 16185 [egg-security] use xssProtection middleware
+2018-09-03 16:06:40,881 INFO 16185 [egg-security] use xframe middleware
+2018-09-03 16:06:40,882 INFO 16185 [egg-security] use dta middleware
+2018-09-03 16:06:40,882 INFO 16185 [egg-security] compose 7 middlewares into one security middleware
+2018-09-03 16:06:40,902 INFO 16185 [egg:core] dump config after load, 5ms
+2018-09-03 16:06:40,917 INFO 16185 [egg-watcher:app] watcher start success
+2018-09-03 16:06:40,941 INFO 16185 [egg:core] dump config after ready, 5ms
+2018-09-03 16:10:13,660 INFO 16444 [egg:logger] init all loggers with options: {"dir":"/Users/aran.hu/Desktop/aran/socket-demo/logs/socket","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"socket-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-03 16:10:13,695 INFO 16444 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-03 16:10:13,695 INFO 16444 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-03 16:10:13,798 INFO 16444 [egg-static] starting static serve /public/ -> /Users/aran.hu/Desktop/aran/socket-demo/app/public
+2018-09-03 16:10:13,800 INFO 16444 [egg-security] use csrf middleware
+2018-09-03 16:10:13,801 INFO 16444 [egg-security] use methodnoallow middleware
+2018-09-03 16:10:13,801 INFO 16444 [egg-security] use noopen middleware
+2018-09-03 16:10:13,802 INFO 16444 [egg-security] use nosniff middleware
+2018-09-03 16:10:13,803 INFO 16444 [egg-security] use xssProtection middleware
+2018-09-03 16:10:13,804 INFO 16444 [egg-security] use xframe middleware
+2018-09-03 16:10:13,804 INFO 16444 [egg-security] use dta middleware
+2018-09-03 16:10:13,804 INFO 16444 [egg-security] compose 7 middlewares into one security middleware
+2018-09-03 16:10:13,819 INFO 16444 [egg:core] dump config after load, 6ms
+2018-09-03 16:10:13,851 INFO 16444 [egg-watcher:app] watcher start success
+2018-09-03 16:10:13,872 INFO 16444 [egg:core] dump config after ready, 8ms
+2018-09-03 16:12:45,624 INFO 16557 [egg:logger] init all loggers with options: {"dir":"/Users/aran.hu/Desktop/aran/socket-demo/logs/socket","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"socket-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-03 16:12:45,658 INFO 16557 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-03 16:12:45,658 INFO 16557 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-03 16:12:45,794 INFO 16557 [egg-static] starting static serve /public/ -> /Users/aran.hu/Desktop/aran/socket-demo/app/public
+2018-09-03 16:12:45,797 INFO 16557 [egg-security] use csrf middleware
+2018-09-03 16:12:45,797 INFO 16557 [egg-security] use methodnoallow middleware
+2018-09-03 16:12:45,798 INFO 16557 [egg-security] use noopen middleware
+2018-09-03 16:12:45,799 INFO 16557 [egg-security] use nosniff middleware
+2018-09-03 16:12:45,799 INFO 16557 [egg-security] use xssProtection middleware
+2018-09-03 16:12:45,800 INFO 16557 [egg-security] use xframe middleware
+2018-09-03 16:12:45,800 INFO 16557 [egg-security] use dta middleware
+2018-09-03 16:12:45,800 INFO 16557 [egg-security] compose 7 middlewares into one security middleware
+2018-09-03 16:12:45,816 INFO 16557 [egg:core] dump config after load, 7ms
+2018-09-03 16:12:45,843 INFO 16557 [egg-watcher:app] watcher start success
+2018-09-03 16:12:45,869 INFO 16557 [egg:core] dump config after ready, 8ms
+2018-09-03 16:21:42,044 INFO 16840 [egg:logger] init all loggers with options: {"dir":"/Users/aran.hu/Desktop/aran/socket-demo/logs/socket","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"socket-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-03 16:21:42,088 INFO 16840 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-03 16:21:42,088 INFO 16840 [egg-schedule]: register schedule /Users/aran.hu/Desktop/aran/socket-demo/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-03 16:21:42,288 INFO 16840 [egg-static] starting static serve /public/ -> /Users/aran.hu/Desktop/aran/socket-demo/app/public
+2018-09-03 16:21:42,292 INFO 16840 [egg-security] use csrf middleware
+2018-09-03 16:21:42,293 INFO 16840 [egg-security] use methodnoallow middleware
+2018-09-03 16:21:42,293 INFO 16840 [egg-security] use noopen middleware
+2018-09-03 16:21:42,294 INFO 16840 [egg-security] use nosniff middleware
+2018-09-03 16:21:42,295 INFO 16840 [egg-security] use xssProtection middleware
+2018-09-03 16:21:42,296 INFO 16840 [egg-security] use xframe middleware
+2018-09-03 16:21:42,297 INFO 16840 [egg-security] use dta middleware
+2018-09-03 16:21:42,297 INFO 16840 [egg-security] compose 7 middlewares into one security middleware
+2018-09-03 16:21:42,332 INFO 16840 [egg:core] dump config after load, 12ms
+2018-09-03 16:21:42,365 INFO 16840 [egg-watcher:app] watcher start success
+2018-09-03 16:21:42,392 INFO 16840 [egg:core] dump config after ready, 6ms
